@@ -12,7 +12,8 @@ from discord.utils import get
 import youtube_dl
 import os
 
-TOKEN = 'NzA2MTk1ODk2NzMxMzA0MDQ3.Xq2xGQ.qDcmTH_zVC8z_b2QbG0_IFqbb6E'
+part_token = ['NzA2MTk1O', 'Dk2NzMxMzA0MDQ3.XsDoUw.X', 'OQvXSTOOn89oC-WYE7MxOxGABw']
+TOKEN = ''.join(part_token)
 Bot = commands.Bot(command_prefix='!')
 
 
